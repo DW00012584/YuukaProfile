@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+header {
+  border-bottom: 2px solid rgb(160, 187, 217);
+}
+
+header > h1 {
+  font-size: 4rem;
+  color: rgb(96, 130, 169);
+}
+
+.link {
+  text-align: end;
+  padding-bottom: 10px;
+}
+
+.link a {
+  text-decoration: none;
+  color: rgb(160, 187, 217);
+  font-size: 2rem;
+  margin: 2rem;
+  padding-bottom: 10rem;
+}
+
+.link a:hover {
+  color: rgb(221, 231, 239);
+}
+
+#top > h2 {
+  color: rgb(96, 130, 169);
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 60px;
+}
+
+#top .content {
+  padding-top: 30px;
+  text-align: center;
+  position: relative;
+}
+
+#top .content img {
+  width: 80%;
+}
+
+#top p {
+  font-size: 4rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: rgb(216, 231, 248);
+  text-decoration: underline;
+  text-decoration-color: rgb(160, 187, 217);
+  padding: 100px;
+  margin: 90px;
+}
+
+#about h2 {
+  font-size: 3rem;
+  color: rgb(96, 130, 169);
+  padding-top: 50px;
+  padding-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#about .pr {
+  padding: 5%;
+  display: flex;
+}
+
+#about .pr .fot {
+  width: 50%;
+  margin: 0;
+}
+
+#about .pr .fot img {
+  width: 100%;
+  height: auto;
+}
+
+#about .pr .ri {
+  color: rgb(96, 130, 169);
+  margin: 0 0 0 20px;
+  padding-top: 200px;
+  padding-left: 70px;
+  font-size: 1.5rem;
+}
+
+#about .pr li {
+  color: rgb(96, 130, 169);
+  padding-top: 60px;
+  padding-left: 70px;
+  list-style: none;
+}
+
+#about .pr ul {
+  padding-left: 0;
+}
+
+#about .pr .nam {
+  margin: 0;
+  padding: 0;
+  font-size: 2rem;
+}
+
+#hobby h2 {
+  font-size: 3rem;
+  color: rgb(96, 130, 169);
+  padding-top: 50px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#hobby .hob {
+  padding: 5% 30%;
+}
+
+#hobby img {
+  width: 500px;
+  height: 400px;
+  padding: 30px;
+}
+
+#hobby p {
+  color: rgb(96, 130, 169);
+  font-size: 3rem;
+  padding: 5% 40%;
+}
+
+#artifact .artifact {
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+
+#artifact p {
+  color: rgb(96, 130, 169);
+  padding-left: 10%;
+  padding-right: 20%;
+}
+
+#artifact #calc {
+  border: 1px solid #fff;
+  padding: 20px 100px;
+  width: 40%;
+}
+
+#artifact #todo {
+  border: 1px solid #fff;
+  padding: 20px 100px;
+  width: 40%;
+}
+
+footer > div {
+  margin-top: 80px;
+}
+
+footer > div > p {
+  padding: 0 10px 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
